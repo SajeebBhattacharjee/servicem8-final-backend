@@ -1,12 +1,20 @@
 {
   "name": "servicem8-signature-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for ServiceM8 Signature Add-On",
   "main": "index.js",
   "scripts": {
+    "dev": "vercel dev",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["servicem8", "addon", "signature"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.0"
+  },
+  "engines": {
+    "node": "24.x"
+  }
 }
